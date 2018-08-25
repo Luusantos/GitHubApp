@@ -16,4 +16,5 @@ data class Usuario(
 
         @GET("/users/{Luusantos}")
         fun buscarUsuario(@Path("Luusantos") username: String) : Call<Usuario>
+
     }
